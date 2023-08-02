@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/styleme.css">
+    <link href="dbcon.php">
+</head>
+<body class="back">
+    <header>
+        <nav class="menu">
+            <ul>
+               <li><a href="project.html"><b>Home</b></a></li>
+               <li><a href="about.html"><b>About</b></a></li>
+               <li><a class="special" href="destination.html"><b>BOOK YOUR DESTINATION</b></a></li>
+               <li><a href="contact.html"><b>Contact Us</b></a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+
+    <div class="details"> 
+
+    <form action="func.php" method="post">
+        <h1>Contact us by entering info in the form below !</h1>
+
+        <table>
+            <tr>
+                <td>Full Name:</td>
+                <td><input type="text" placeholder="Enter your name" name="name" class="text" required></td>
+            </tr>
+            <tr>
+                <td>Phone Number:</td>
+                <td><input type="number" placeholder="Enter your number" name="phone" class="mobile" required></td>
+            </tr>
+            <tr>
+               <td>Email:</td>
+               <td><input type="email" placeholder="Enter you email id" name="email" class="email" required></td>
+            </tr>
+            <tr>
+                <td>Message:</td>
+                <td><textarea rows="5" cols="39" name="messege" placeholder="Your message" class="message" required></textarea></td>
+            </tr>
+           </table>
+        <p colspan="3"><input type="submit" name="contactform"></p>
+        <p class="contact">Fill in your details and we would love to hear from you.<br>We're here to help you and we'll get back to you as soon as we can.</p>
+        <p>Required fields are followed by *</p>
+
+    </form>
+    </div>
+    <section class="touch">
+        <h2>Want to get in touch?</h2>
+        <p>Here's how you can reach us...</p><br>
+        <table class="getin">
+            <tr>
+                <td><h3>Address</h3></td>
+                <td><h3>Email</h3></td>
+            </tr>
+            <tr>
+                <td>Vellore Institute of Technology , Sehore, Bhopal<br>21BCE11468</td>
+                <td>abc@vitbhopal.ac.in<br>xyz@vitbhopal.ac.in</td>
+            </tr>
+        </table>
+    </section>
+    <footer class="foot">
+        <ul>
+            <li><a href="project.html"><b>Home</b></a></li>
+            <li><a href="about.html"><b>About</b></a></li>
+            <li><a href="destination.html"><b>Destination</b></a></li>
+            <li><a href="contact.html"><b>Contact Us</b></a></li>
+         </ul>
+    </footer>
+</body>
+</html>
